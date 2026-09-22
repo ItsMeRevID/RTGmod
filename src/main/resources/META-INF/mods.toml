@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+issueTrackerURL="https://example.com"
+
+[[mods]]
+modId="rtgmod"
+version="${file.jarVersion}"
+displayName="Realistic Terrain Generation"
+authors="RevSkyMC"
+description='''
+Menambahkan generasi dunia yang lebih realistis: pegunungan besar,
+pepohonan indah, dan sungai panjang untuk Minecraft Forge 1.16.5.
+'''
+
+[[dependencies.rtgmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.rtgmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
